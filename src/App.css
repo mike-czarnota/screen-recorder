@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 0 50px 80px;
+}
+
+.App-buttons-wrapper {
+  display: flex;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button {
+  display: inline-block;
+  margin: 1em 1em;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+video {
+  border: 1px solid lightgray;
+  width: 100%;
+  background-color: #eee;
+}
+
+a {
+  color: blue;
+}
+
+video {
+  width: 300px;
+  margin: auto;
+  display: none;
+}
+
+.video-visible {
+  display: block;
+}
